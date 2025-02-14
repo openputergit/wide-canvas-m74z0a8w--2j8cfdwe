@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack.io | Ultimate Hackathon Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        * {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .neu-brutal {
+            box-shadow: 5px 5px 0px 0px #000000;
+            border: 3px solid #000000;
+            transition: all 0.2s ease;
+        }
+        .neu-brutal:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 7px 7px 0px 0px #000000;
+        }
+        .prize-card {
+            transform: rotate(-2deg);
+        }
+        @media (max-width: 768px) {
+            .prize-card {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body class="bg-[#B8E2F2]">
+    <nav class="p-4 bg-white neu-brutal m-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Hack.io</h1>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:underline">About</a>
+                <a href="#schedule" class="hover:underline">Schedule</a>
+                <a href="#prizes" class="hover:underline">Prizes</a>
+                <a href="#info" class="hover:underline">Info</a>
+            </div>
+            <button class="bg-yellow-300 neu-brutal px-6 py-2">Register Now</button>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4">
+        <section class="py-20 text-center">
+            <h1 class="text-6xl font-bold mb-6">Build. Create. Innovate.</h1>
+            <p class="text-xl mb-8">Join the biggest hackathon of 2024!</p>
+            <button class="bg-[#FF6B6B] text-white neu-brutal px-8 py-4 text-xl">Join Now</button>
+        </section>
+
+        <section id="about" class="py-16">
+            <div class="bg-white neu-brutal p-8">
+                <h2 class="text-4xl font-bold mb-6">About the Hackathon</h2>
+                <p class="text-lg mb-4">48 hours of coding, creativity, and collaboration. Work with talented developers from around the world to build something amazing.</p>
+                <div class="grid md:grid-cols-3 gap-6 mt-8">
+                    <div class="bg-green-200 neu-brutal p-6">
+                        <i class="bi bi-people-fill text-4xl"></i>
+                        <h3 class="text-xl font-bold mt-4">Team Building</h3>
+                        <p>Form teams of up to 4 people</p>
+                    </div>
+                    <div class="bg-blue-200 neu-brutal p-6">
+                        <i class="bi bi-laptop text-4xl"></i>
+                        <h3 class="text-xl font-bold mt-4">Any Tech Stack</h3>
+                        <p>Use your preferred technologies</p>
+                    </div>
+                    <div class="bg-purple-200 neu-brutal p-6">
+                        <i class="bi bi-trophy-fill text-4xl"></i>
+                        <h3 class="text-xl font-bold mt-4">Amazing Prizes</h3>
+                        <p>Win up to $10,000 in prizes</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule" class="py-16">
+            <div class="bg-white neu-brutal p-8">
+                <h2 class="text-4xl font-bold mb-6">Schedule</h2>
+                <div class="space-y-4">
+                    <div class="flex items-center bg-pink-200 neu-brutal p-4">
+                        <div class="font-bold w-32">Day 1</div>
+                        <div>
+                            <p>10:00 AM - Opening Ceremony</p>
+                            <p>11:00 AM - Team Formation</p>
+                            <p>12:00 PM - Hacking Begins!</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-yellow-200 neu-brutal p-4">
+                        <div class="font-bold w-32">Day 2</div>
+                        <div>
+                            <p>All Day - Hacking</p>
+                            <p>2:00 PM - Mentor Sessions</p>
+                            <p>8:00 PM - Gaming Break</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-green-200 neu-brutal p-4">
+                        <div class="font-bold w-32">Day 3</div>
+                        <div>
+                            <p>12:00 PM - Submissions Due</p>
+                            <p>2:00 PM - Presentations</p>
+                            <p>4:00 PM - Awards Ceremony</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="prizes" class="py-16">
+            <div class="bg-white neu-brutal p-8">
+                <h2 class="text-4xl font-bold mb-6">Prizes</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-yellow-300 neu-brutal p-6 prize-card">
+                        <h3 class="text-2xl font-bold">🥇 First Place</h3>
+                        <p class="text-4xl font-bold mt-4">$5,000</p>
+                        <p class="mt-2">+ Premium Swag Pack</p>
+                    </div>
+                    <div class="bg-gray-200 neu-brutal p-6 prize-card">
+                        <h3 class="text-2xl font-bold">🥈 Second Place</h3>
+                        <p class="text-4xl font-bold mt-4">$3,000</p>
+                        <p class="mt-2">+ Tech Gadgets</p>
+                    </div>
+                    <div class="bg-orange-200 neu-brutal p-6 prize-card">
+                        <h3 class="text-2xl font-bold">🥉 Third Place</h3>
+                        <p class="text-4xl font-bold mt-4">$2,000</p>
+                        <p class="mt-2">+ Cool Merch</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="info" class="py-16">
+            <div class="bg-white neu-brutal p-8">
+                <h2 class="text-4xl font-bold mb-6">Important Information</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="space-y-4">
+                        <h3 class="text-2xl font-bold">Requirements</h3>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li>Valid Student ID</li>
+                            <li>Laptop with charger</li>
+                            <li>Enthusiasm to learn</li>
+                            <li>Team spirit</li>
+                        </ul>
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-2xl font-bold">What We Provide</h3>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li>Free meals and snacks</li>
+                            <li>WiFi and power strips</li>
+                            <li>Mentorship</li>
+                            <li>Swag and goodies</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <button class="bg-[#FF6B6B] text-white neu-brutal px-8 py-4 text-xl">Register for Hack.io</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white neu-brutal m-4 p-8">
+        <div class="container mx-auto text-center">
+            <p class="mb-4">Follow us on social media</p>
+            <div class="flex justify-center space-x-4">
+                <a href="#" class="text-2xl"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-2xl"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-2xl"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="text-2xl"><i class="bi bi-github"></i></a>
+            </div>
+            <p class="mt-4">© 2024 Hack.io. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Mobile menu functionality can be added here if needed
+    </script>
+<script>document.body.addEventListener('wheel', e => { if (!e.ctrlKey) return; e.preventDefault(); return }, { passive: false })</script>
+	</body>
+</html>
